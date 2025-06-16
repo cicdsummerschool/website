@@ -1,0 +1,12 @@
+name = "Modern"
+license = "MIT"
+licenselink = "https://github.com/yourusername/modern-hugo-theme/blob/main/LICENSE"
+description = "A modern, responsive Hugo theme with clean design"
+homepage = "https://github.com/yourusername/modern-hugo-theme"
+tags = ["sessions", "modern", "responsive", "clean", "minimal"]
+features = ["responsive", "dark-mode", "seo", "sessions"]
+min_version = "0.120.0"
+
+[author]
+  name = "Your Name"
+  homepage = "https://yourwebsite.com"

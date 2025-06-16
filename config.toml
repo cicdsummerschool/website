@@ -1,0 +1,54 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "CI/CD Summer School"
+theme = "modern"
+
+[params]
+  description = "Level up your code deployment skills all summer long."
+  author = "@managedkaos"
+  email = "info@managedkaos.com"
+
+  # Social links
+  github = "https://github.com/cicdsummerschool"
+  twitter = "https://twitter.com/managedkaos"
+  linkedin = "https://linkedin.com/in/michaelpjenkins"
+
+  # Theme settings
+  showDarkModeToggle = true
+  showReadingTime = false
+  showWordCount = false
+  showShareButtons = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Sessions"
+    url = "/sessions/"
+    weight = 20
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    tabWidth = 2
+
+[imaging]
+  quality = 85
+  resampleFilter = "lanczos"
+
+[outputs]
+  home = ["HTML", "RSS"]
